@@ -96,6 +96,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .information > p {
@@ -132,4 +133,20 @@ a {
     font-size: 16px;
     color: grey;
     text-align: center;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial > .container {
+    font-size: 24px;
+    font-weight: 100;
+    padding: 150px 0;
+}
+
+#author {
+    text-align: right;
 }
